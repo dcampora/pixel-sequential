@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="f_SequentialAlgorithm">
+      <UniqueIdentifier>{ce4c9dfb-c7c0-4ef1-9d76-4cac91b7cc3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="f_SequentialAlgorithm\Headers">
+      <UniqueIdentifier>{f9b652fd-eedc-468a-ae61-eb35ef8203a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="f_SequentialAlgorithm\Sources">
+      <UniqueIdentifier>{19129999-f336-4502-b7d5-1462d0532ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SequentialAlgorithm">
+      <UniqueIdentifier>{b7f010c0-0483-4859-95a2-e929cb515915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SequentialAlgorithm\Headers">
+      <UniqueIdentifier>{e2f17e71-928f-43cc-9d15-a0ce48dda8a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SequentialAlgorithm\Sources">
+      <UniqueIdentifier>{7805bd39-3535-4def-8cf3-d7a77321bfc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperSeq.h">
+      <Filter>f_SequentialAlgorithm\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SeqAlg.h">
+      <Filter>SequentialAlgorithm\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="floaties.h">
+      <Filter>f_SequentialAlgorithm\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="float_SeqAlg.h">
+      <Filter>f_SequentialAlgorithm\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelperSeq.cpp">
+      <Filter>f_SequentialAlgorithm\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SeqAlg.cpp">
+      <Filter>SequentialAlgorithm\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="float_SeqAlg.cpp">
+      <Filter>f_SequentialAlgorithm\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu-sequential-float.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

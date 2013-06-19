@@ -1,5 +1,5 @@
 
-#include "stdafx.h"
+// #include "stdafx.h"
 #include "float_SeqAlg.h"
 
 // Note: parallel_tracks_vector should have n items allocated already.

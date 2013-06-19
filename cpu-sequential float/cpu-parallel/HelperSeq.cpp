@@ -1,5 +1,5 @@
 
-#include "stdafx.h"
+// #include "stdafx.h"
 #include "HelperSeq.h"
 
 float f_zBeam(frack *tr) {
